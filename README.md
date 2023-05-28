@@ -6,7 +6,7 @@ A portfolio site showcasing my work.
 
 This is where I will include visual wireframes in order to organize my portfolio site.
 
-!{Wireframe of Home Page} (Wireframes-example-01.jpg)
+![Wireframe of Home Page](wireframes/Wireframes-examples-01.jpg)
 
 Header - will include which page you are vieewing
 
@@ -17,7 +17,7 @@ Main Content - will include logo and a link to enter portfolio
 Footer - will include copyright info and contact info
 
 
-!{Wireframe of Work Page} (Wireframes-example-02.jpg)
+![Wireframe of Home Page](wireframes/Wireframes-examples-02.jpg)
 
 Header - will include which page you are vieewing
 
@@ -28,7 +28,7 @@ Main Content - will include links to portfolio pages for illustration, graphic d
 Footer - will include copyright info and contact info
 
 
-!{Wireframe of About Page} (Wireframes-example-03.jpg)
+![Wireframe of Home Page](wireframes/Wireframes-examples-03.jpg)
 
 Header - will include which page you are vieewing
 
