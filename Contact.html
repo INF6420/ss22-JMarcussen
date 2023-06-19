@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tesi Art and Design - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 <header>
-    <nav>
-        <img src="" alt="Tesi Art and Design Logo">
-        <ul>
+    <nav class="nav">
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
             <li><a href="Contact.html">Contact</a></li>
             <li><a href="Work.html">Work</a></li>
             <li><a href="About.html">About</a></li>
@@ -17,17 +19,31 @@
     </nav>
 </header>
 <main>
-    
+    <section> 
+        
+        <div class="input">
+            <img src="Images/ribbonLO.png" alt="ribbonLO" style="width:100%;">
+            <h2><div class="centered">Contact</div></h2>
+          </div>
+          <div class="container">
+            <form action="action_page.php">
+              <input type="text" id="name" First Name="firstname" placeholder="First Name">
+              <input type="text" id="name" Last Name="lastname" placeholder="Last Name">
+              <input type="text" id="Email" Email="lastname" placeholder="Email">
+              </select>
+              <textarea id="Message" name="Message" placeholder="Message" style="height:200px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
 </main>
-<footer>
-    <div>
-        <h2>Contact</h2>
-        <p>JenniferRMarcussen@gmail.com</p>
-    <div>
+    
+<section>
+    <div class="fixed-footer">
+    <div class="container">&copy;</div>    
+    <div class="container">Tesi Art + Design </div>     
     </div>
-        <h2>Copyright</h2>
-        <p>&#169 Jennfer Marcussen 2023</p>
-    </div>
-</footer>
+</section>
 </body>
 </html>
+
+
