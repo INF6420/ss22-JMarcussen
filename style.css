@@ -203,3 +203,14 @@ body {
     margin-bottom: 15px;
     resize: vertical;
 }
+
+@media screen and (min-width: 1065px) {
+    form {
+        width: 50%;
+        margin: 3em auto;
+    }
+
+label {
+    display: block;
+    font-weight: 700;
+}

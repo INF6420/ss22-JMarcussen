@@ -19,22 +19,21 @@
     </nav>
 </header>
 <main>
-    <section> 
-        
-        <div class="input">
-            <img src="Images/ribbonLO.png" alt="ribbonLO" style="width:100%;">
-            <h2><div class="centered">Contact</div></h2>
-          </div>
-          <div class="container">
-            <form action="action_page.php">
-              <input type="text" id="name" First Name="firstname" placeholder="First Name">
-              <input type="text" id="name" Last Name="lastname" placeholder="Last Name">
-              <input type="text" id="Email" Email="lastname" placeholder="Email">
-              </select>
-              <textarea id="Message" name="Message" placeholder="Message" style="height:200px"></textarea>
-              <input type="submit" value="Submit">
-            </form>
-          </div>
+    <form
+    action="https://formspree.io/f/mjvqkkbd"
+    method="POST"
+  >
+    <label>
+      Your email:
+      <input type="email" name="email">
+    </label>
+    <label>
+      Your message:
+      <textarea name="message"></textarea>
+    </label>
+    <!-- your other form fields go here -->
+    <button type="submit">Send</button>
+  </form>
 </main>
     
 <section>
